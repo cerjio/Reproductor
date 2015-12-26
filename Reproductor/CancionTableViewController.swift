@@ -12,7 +12,7 @@ import AVFoundation
 class CancionTableViewController: UITableViewController {
     
     var canciones : [Cancion] = []
-    var cancionSeleccionada : String = ""
+    var cancionSeleccionada : Cancion? = nil
     
     private var reproductor : AVAudioPlayer!
 
@@ -108,15 +108,19 @@ class CancionTableViewController: UITableViewController {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
         /*let sonidoURL = NSBundle.mainBundle().URLForResource(name: String?, withExtension: "mp3")*/
+        
+        let sigVista = segue.destinationViewController as! ViewController
+        sigVista.reproductorReferencia = self.reproductor
+        sigVista.cancionSeleccionadaReferencia = self.cancionSeleccionada
+        
     }
     
     override func shouldPerformSegueWithIdentifier(identifier: String, sender: AnyObject?) -> Bool {
    
         
+        cancionSeleccionada =  canciones[(tableViewReference.indexPathForSelectedRow?.row)!]
         
-        let  cancionSeleccionada : String = canciones[(tableViewReference.indexPathForSelectedRow?.row)!].nombreCancion
-        
-        let sonidoURL = NSBundle.mainBundle().URLForResource(cancionSeleccionada, withExtension: "mp3")
+        let sonidoURL = NSBundle.mainBundle().URLForResource(cancionSeleccionada?.nombreCancion, withExtension: "mp3")
    
         
         do {
@@ -139,7 +143,17 @@ class CancionTableViewController: UITableViewController {
         let portada2 = UIImage(named: "archie")!
         let cancion2 = Cancion(nombreCancion: "Dead Funny - Archie Bronson Outfit", portada: portada2)
         
-        canciones += [cancion1, cancion2]
+        let portada3 = UIImage(named: "derezzed")!
+        let cancion3 = Cancion(nombreCancion: "Derezzed - Daft Punk", portada: portada3)
+        
+        let portada4 = UIImage(named: "gigamesh")!
+        let cancion4 = Cancion(nombreCancion: "Dreams (Gigamesh Remix) - Fleedwoodmac", portada: portada4)
+        
+        let portada5 = UIImage(named: "iggy")!
+        let cancion5 = Cancion(nombreCancion: "Down On The Street - Iggy Pop and The Stoges", portada: portada5)
+
+        
+        canciones += [cancion1, cancion2, cancion3, cancion4, cancion5]
         
 
     }
