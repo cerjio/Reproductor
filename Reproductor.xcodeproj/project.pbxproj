@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEE3A0921C2DC53400C6C028 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE3A0911C2DC53400C6C028 /* AppDelegate.swift */; };
+		DEE3A0941C2DC53400C6C028 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE3A0931C2DC53400C6C028 /* ViewController.swift */; };
+		DEE3A0971C2DC53400C6C028 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEE3A0951C2DC53400C6C028 /* Main.storyboard */; };
+		DEE3A0991C2DC53400C6C028 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEE3A0981C2DC53400C6C028 /* Assets.xcassets */; };
+		DEE3A09C1C2DC53400C6C028 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEE3A09A1C2DC53400C6C028 /* LaunchScreen.storyboard */; };
+		DEE3A0A71C2DC53400C6C028 /* ReproductorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE3A0A61C2DC53400C6C028 /* ReproductorTests.swift */; };
+		DEE3A0B21C2DC76C00C6C028 /* CancionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE3A0B11C2DC76C00C6C028 /* CancionTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		DEE3A0B41C2DCF9000C6C028 /* Ava Adore - Smashing Pumpkins.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DEE3A0B31C2DCF9000C6C028 /* Ava Adore - Smashing Pumpkins.mp3 */; settings = {ASSET_TAGS = (); }; };
+		DEE3A0B61C2DD28400C6C028 /* Dead Funny - Archie Bronson Outfit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DEE3A0B51C2DD28400C6C028 /* Dead Funny - Archie Bronson Outfit.mp3 */; settings = {ASSET_TAGS = (); }; };
+		DEE3A0B81C2DD28A00C6C028 /* Derezzed - Daft Punk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DEE3A0B71C2DD28A00C6C028 /* Derezzed - Daft Punk.mp3 */; settings = {ASSET_TAGS = (); }; };
+		DEE3A0BA1C2DD29100C6C028 /* Dreams (Gigamesh Remix) - Fleedwoodmac.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DEE3A0B91C2DD29100C6C028 /* Dreams (Gigamesh Remix) - Fleedwoodmac.mp3 */; settings = {ASSET_TAGS = (); }; };
+		DEE3A0BC1C2DD29700C6C028 /* Down On The Street - Iggy Pop and The Stoges.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DEE3A0BB1C2DD29600C6C028 /* Down On The Street - Iggy Pop and The Stoges.mp3 */; settings = {ASSET_TAGS = (); }; };
+		DEE3A0BE1C2DD31300C6C028 /* ava-adore.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DEE3A0BD1C2DD31300C6C028 /* ava-adore.jpg */; settings = {ASSET_TAGS = (); }; };
+		DEE3A0C01C2DD33F00C6C028 /* archie.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DEE3A0BF1C2DD33F00C6C028 /* archie.jpeg */; settings = {ASSET_TAGS = (); }; };
+		DEE3A0C21C2DD39800C6C028 /* derezzed.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DEE3A0C11C2DD39800C6C028 /* derezzed.jpeg */; settings = {ASSET_TAGS = (); }; };
+		DEE3A0C41C2DD3D900C6C028 /* gigamesh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DEE3A0C31C2DD3D900C6C028 /* gigamesh.jpg */; settings = {ASSET_TAGS = (); }; };
+		DEE3A0C61C2DD43200C6C028 /* iggy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DEE3A0C51C2DD43200C6C028 /* iggy.jpg */; settings = {ASSET_TAGS = (); }; };
+		DEE3A0C81C2DD62100C6C028 /* CancionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE3A0C71C2DD62100C6C028 /* CancionTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		DEE3A0CA1C2DD75200C6C028 /* Cancion.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE3A0C91C2DD75200C6C028 /* Cancion.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEE3A0A31C2DC53400C6C028 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEE3A0861C2DC53400C6C028 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEE3A08D1C2DC53400C6C028;
+			remoteInfo = Reproductor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DEE3A08E1C2DC53400C6C028 /* Reproductor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reproductor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEE3A0911C2DC53400C6C028 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DEE3A0931C2DC53400C6C028 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DEE3A0961C2DC53400C6C028 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEE3A0981C2DC53400C6C028 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEE3A09B1C2DC53400C6C028 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DEE3A09D1C2DC53400C6C028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEE3A0A21C2DC53400C6C028 /* ReproductorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReproductorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEE3A0A61C2DC53400C6C028 /* ReproductorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReproductorTests.swift; sourceTree = "<group>"; };
+		DEE3A0A81C2DC53400C6C028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEE3A0B11C2DC76C00C6C028 /* CancionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancionTableViewCell.swift; sourceTree = "<group>"; };
+		DEE3A0B31C2DCF9000C6C028 /* Ava Adore - Smashing Pumpkins.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ava Adore - Smashing Pumpkins.mp3"; sourceTree = "<group>"; };
+		DEE3A0B51C2DD28400C6C028 /* Dead Funny - Archie Bronson Outfit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Dead Funny - Archie Bronson Outfit.mp3"; sourceTree = "<group>"; };
+		DEE3A0B71C2DD28A00C6C028 /* Derezzed - Daft Punk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Derezzed - Daft Punk.mp3"; sourceTree = "<group>"; };
+		DEE3A0B91C2DD29100C6C028 /* Dreams (Gigamesh Remix) - Fleedwoodmac.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Dreams (Gigamesh Remix) - Fleedwoodmac.mp3"; sourceTree = "<group>"; };
+		DEE3A0BB1C2DD29600C6C028 /* Down On The Street - Iggy Pop and The Stoges.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Down On The Street - Iggy Pop and The Stoges.mp3"; sourceTree = "<group>"; };
+		DEE3A0BD1C2DD31300C6C028 /* ava-adore.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ava-adore.jpg"; sourceTree = "<group>"; };
+		DEE3A0BF1C2DD33F00C6C028 /* archie.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = archie.jpeg; sourceTree = "<group>"; };
+		DEE3A0C11C2DD39800C6C028 /* derezzed.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = derezzed.jpeg; sourceTree = "<group>"; };
+		DEE3A0C31C2DD3D900C6C028 /* gigamesh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gigamesh.jpg; sourceTree = "<group>"; };
+		DEE3A0C51C2DD43200C6C028 /* iggy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iggy.jpg; sourceTree = "<group>"; };
+		DEE3A0C71C2DD62100C6C028 /* CancionTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancionTableViewController.swift; sourceTree = "<group>"; };
+		DEE3A0C91C2DD75200C6C028 /* Cancion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cancion.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEE3A08B1C2DC53400C6C028 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE3A09F1C2DC53400C6C028 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEE3A0851C2DC53400C6C028 = {
+			isa = PBXGroup;
+			children = (
+				DEE3A0901C2DC53400C6C028 /* Reproductor */,
+				DEE3A0A51C2DC53400C6C028 /* ReproductorTests */,
+				DEE3A08F1C2DC53400C6C028 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEE3A08F1C2DC53400C6C028 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEE3A08E1C2DC53400C6C028 /* Reproductor.app */,
+				DEE3A0A21C2DC53400C6C028 /* ReproductorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEE3A0901C2DC53400C6C028 /* Reproductor */ = {
+			isa = PBXGroup;
+			children = (
+				DEE3A0B31C2DCF9000C6C028 /* Ava Adore - Smashing Pumpkins.mp3 */,
+				DEE3A0B51C2DD28400C6C028 /* Dead Funny - Archie Bronson Outfit.mp3 */,
+				DEE3A0B71C2DD28A00C6C028 /* Derezzed - Daft Punk.mp3 */,
+				DEE3A0B91C2DD29100C6C028 /* Dreams (Gigamesh Remix) - Fleedwoodmac.mp3 */,
+				DEE3A0BB1C2DD29600C6C028 /* Down On The Street - Iggy Pop and The Stoges.mp3 */,
+				DEE3A0BD1C2DD31300C6C028 /* ava-adore.jpg */,
+				DEE3A0BF1C2DD33F00C6C028 /* archie.jpeg */,
+				DEE3A0C11C2DD39800C6C028 /* derezzed.jpeg */,
+				DEE3A0C31C2DD3D900C6C028 /* gigamesh.jpg */,
+				DEE3A0C51C2DD43200C6C028 /* iggy.jpg */,
+				DEE3A0911C2DC53400C6C028 /* AppDelegate.swift */,
+				DEE3A0931C2DC53400C6C028 /* ViewController.swift */,
+				DEE3A0951C2DC53400C6C028 /* Main.storyboard */,
+				DEE3A0C71C2DD62100C6C028 /* CancionTableViewController.swift */,
+				DEE3A0B11C2DC76C00C6C028 /* CancionTableViewCell.swift */,
+				DEE3A0981C2DC53400C6C028 /* Assets.xcassets */,
+				DEE3A09A1C2DC53400C6C028 /* LaunchScreen.storyboard */,
+				DEE3A09D1C2DC53400C6C028 /* Info.plist */,
+				DEE3A0C91C2DD75200C6C028 /* Cancion.swift */,
+			);
+			path = Reproductor;
+			sourceTree = "<group>";
+		};
+		DEE3A0A51C2DC53400C6C028 /* ReproductorTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEE3A0A61C2DC53400C6C028 /* ReproductorTests.swift */,
+				DEE3A0A81C2DC53400C6C028 /* Info.plist */,
+			);
+			path = ReproductorTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEE3A08D1C2DC53400C6C028 /* Reproductor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEE3A0AB1C2DC53400C6C028 /* Build configuration list for PBXNativeTarget "Reproductor" */;
+			buildPhases = (
+				DEE3A08A1C2DC53400C6C028 /* Sources */,
+				DEE3A08B1C2DC53400C6C028 /* Frameworks */,
+				DEE3A08C1C2DC53400C6C028 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Reproductor;
+			productName = Reproductor;
+			productReference = DEE3A08E1C2DC53400C6C028 /* Reproductor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEE3A0A11C2DC53400C6C028 /* ReproductorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEE3A0AE1C2DC53400C6C028 /* Build configuration list for PBXNativeTarget "ReproductorTests" */;
+			buildPhases = (
+				DEE3A09E1C2DC53400C6C028 /* Sources */,
+				DEE3A09F1C2DC53400C6C028 /* Frameworks */,
+				DEE3A0A01C2DC53400C6C028 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEE3A0A41C2DC53400C6C028 /* PBXTargetDependency */,
+			);
+			name = ReproductorTests;
+			productName = ReproductorTests;
+			productReference = DEE3A0A21C2DC53400C6C028 /* ReproductorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEE3A0861C2DC53400C6C028 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = cerjio;
+				TargetAttributes = {
+					DEE3A08D1C2DC53400C6C028 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					DEE3A0A11C2DC53400C6C028 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = DEE3A08D1C2DC53400C6C028;
+					};
+				};
+			};
+			buildConfigurationList = DEE3A0891C2DC53400C6C028 /* Build configuration list for PBXProject "Reproductor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEE3A0851C2DC53400C6C028;
+			productRefGroup = DEE3A08F1C2DC53400C6C028 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEE3A08D1C2DC53400C6C028 /* Reproductor */,
+				DEE3A0A11C2DC53400C6C028 /* ReproductorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEE3A08C1C2DC53400C6C028 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEE3A0BC1C2DD29700C6C028 /* Down On The Street - Iggy Pop and The Stoges.mp3 in Resources */,
+				DEE3A0B41C2DCF9000C6C028 /* Ava Adore - Smashing Pumpkins.mp3 in Resources */,
+				DEE3A0C61C2DD43200C6C028 /* iggy.jpg in Resources */,
+				DEE3A0B61C2DD28400C6C028 /* Dead Funny - Archie Bronson Outfit.mp3 in Resources */,
+				DEE3A09C1C2DC53400C6C028 /* LaunchScreen.storyboard in Resources */,
+				DEE3A0B81C2DD28A00C6C028 /* Derezzed - Daft Punk.mp3 in Resources */,
+				DEE3A0C01C2DD33F00C6C028 /* archie.jpeg in Resources */,
+				DEE3A0C21C2DD39800C6C028 /* derezzed.jpeg in Resources */,
+				DEE3A0BE1C2DD31300C6C028 /* ava-adore.jpg in Resources */,
+				DEE3A0C41C2DD3D900C6C028 /* gigamesh.jpg in Resources */,
+				DEE3A0991C2DC53400C6C028 /* Assets.xcassets in Resources */,
+				DEE3A0971C2DC53400C6C028 /* Main.storyboard in Resources */,
+				DEE3A0BA1C2DD29100C6C028 /* Dreams (Gigamesh Remix) - Fleedwoodmac.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE3A0A01C2DC53400C6C028 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEE3A08A1C2DC53400C6C028 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEE3A0941C2DC53400C6C028 /* ViewController.swift in Sources */,
+				DEE3A0B21C2DC76C00C6C028 /* CancionTableViewCell.swift in Sources */,
+				DEE3A0C81C2DD62100C6C028 /* CancionTableViewController.swift in Sources */,
+				DEE3A0CA1C2DD75200C6C028 /* Cancion.swift in Sources */,
+				DEE3A0921C2DC53400C6C028 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE3A09E1C2DC53400C6C028 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEE3A0A71C2DC53400C6C028 /* ReproductorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEE3A0A41C2DC53400C6C028 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEE3A08D1C2DC53400C6C028 /* Reproductor */;
+			targetProxy = DEE3A0A31C2DC53400C6C028 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEE3A0951C2DC53400C6C028 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEE3A0961C2DC53400C6C028 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEE3A09A1C2DC53400C6C028 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEE3A09B1C2DC53400C6C028 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEE3A0A91C2DC53400C6C028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DEE3A0AA1C2DC53400C6C028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEE3A0AC1C2DC53400C6C028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Reproductor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cerjio.Reproductor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DEE3A0AD1C2DC53400C6C028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Reproductor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cerjio.Reproductor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DEE3A0AF1C2DC53400C6C028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ReproductorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cerjio.ReproductorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reproductor.app/Reproductor";
+			};
+			name = Debug;
+		};
+		DEE3A0B01C2DC53400C6C028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ReproductorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cerjio.ReproductorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reproductor.app/Reproductor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEE3A0891C2DC53400C6C028 /* Build configuration list for PBXProject "Reproductor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEE3A0A91C2DC53400C6C028 /* Debug */,
+				DEE3A0AA1C2DC53400C6C028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEE3A0AB1C2DC53400C6C028 /* Build configuration list for PBXNativeTarget "Reproductor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEE3A0AC1C2DC53400C6C028 /* Debug */,
+				DEE3A0AD1C2DC53400C6C028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DEE3A0AE1C2DC53400C6C028 /* Build configuration list for PBXNativeTarget "ReproductorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEE3A0AF1C2DC53400C6C028 /* Debug */,
+				DEE3A0B01C2DC53400C6C028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEE3A0861C2DC53400C6C028 /* Project object */;
+}
