@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE7BE3E31C2F60EC002931D7 /* Dead Funny - Archie Bronson Outfit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DE7BE3E21C2F60EC002931D7 /* Dead Funny - Archie Bronson Outfit.mp3 */; settings = {ASSET_TAGS = (); }; };
+		DE7BE3E51C2F60F6002931D7 /* Derezzed - Daft Punk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DE7BE3E41C2F60F6002931D7 /* Derezzed - Daft Punk.mp3 */; settings = {ASSET_TAGS = (); }; };
+		DE7BE3E71C2F6103002931D7 /* Dreams (Gigamesh Remix) - Fleedwoodmac.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DE7BE3E61C2F6103002931D7 /* Dreams (Gigamesh Remix) - Fleedwoodmac.mp3 */; settings = {ASSET_TAGS = (); }; };
+		DE7BE3E91C2F6110002931D7 /* Down On The Street - Iggy Pop and The Stoges.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DE7BE3E81C2F6110002931D7 /* Down On The Street - Iggy Pop and The Stoges.mp3 */; settings = {ASSET_TAGS = (); }; };
+		DE7BE3EB1C2F65FA002931D7 /* Ava Adore - Smashing Pumpkins.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DE7BE3EA1C2F65FA002931D7 /* Ava Adore - Smashing Pumpkins.mp3 */; settings = {ASSET_TAGS = (); }; };
 		DEE3A0921C2DC53400C6C028 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE3A0911C2DC53400C6C028 /* AppDelegate.swift */; };
 		DEE3A0941C2DC53400C6C028 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE3A0931C2DC53400C6C028 /* ViewController.swift */; };
 		DEE3A0971C2DC53400C6C028 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEE3A0951C2DC53400C6C028 /* Main.storyboard */; };
@@ -14,11 +19,6 @@
 		DEE3A09C1C2DC53400C6C028 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEE3A09A1C2DC53400C6C028 /* LaunchScreen.storyboard */; };
 		DEE3A0A71C2DC53400C6C028 /* ReproductorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE3A0A61C2DC53400C6C028 /* ReproductorTests.swift */; };
 		DEE3A0B21C2DC76C00C6C028 /* CancionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE3A0B11C2DC76C00C6C028 /* CancionTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
-		DEE3A0B41C2DCF9000C6C028 /* Ava Adore - Smashing Pumpkins.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DEE3A0B31C2DCF9000C6C028 /* Ava Adore - Smashing Pumpkins.mp3 */; settings = {ASSET_TAGS = (); }; };
-		DEE3A0B61C2DD28400C6C028 /* Dead Funny - Archie Bronson Outfit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DEE3A0B51C2DD28400C6C028 /* Dead Funny - Archie Bronson Outfit.mp3 */; settings = {ASSET_TAGS = (); }; };
-		DEE3A0B81C2DD28A00C6C028 /* Derezzed - Daft Punk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DEE3A0B71C2DD28A00C6C028 /* Derezzed - Daft Punk.mp3 */; settings = {ASSET_TAGS = (); }; };
-		DEE3A0BA1C2DD29100C6C028 /* Dreams (Gigamesh Remix) - Fleedwoodmac.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DEE3A0B91C2DD29100C6C028 /* Dreams (Gigamesh Remix) - Fleedwoodmac.mp3 */; settings = {ASSET_TAGS = (); }; };
-		DEE3A0BC1C2DD29700C6C028 /* Down On The Street - Iggy Pop and The Stoges.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DEE3A0BB1C2DD29600C6C028 /* Down On The Street - Iggy Pop and The Stoges.mp3 */; settings = {ASSET_TAGS = (); }; };
 		DEE3A0C81C2DD62100C6C028 /* CancionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE3A0C71C2DD62100C6C028 /* CancionTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		DEE3A0CA1C2DD75200C6C028 /* Cancion.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE3A0C91C2DD75200C6C028 /* Cancion.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
@@ -34,6 +34,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE7BE3E21C2F60EC002931D7 /* Dead Funny - Archie Bronson Outfit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Dead Funny - Archie Bronson Outfit.mp3"; sourceTree = "<group>"; };
+		DE7BE3E41C2F60F6002931D7 /* Derezzed - Daft Punk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Derezzed - Daft Punk.mp3"; sourceTree = "<group>"; };
+		DE7BE3E61C2F6103002931D7 /* Dreams (Gigamesh Remix) - Fleedwoodmac.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Dreams (Gigamesh Remix) - Fleedwoodmac.mp3"; sourceTree = "<group>"; };
+		DE7BE3E81C2F6110002931D7 /* Down On The Street - Iggy Pop and The Stoges.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Down On The Street - Iggy Pop and The Stoges.mp3"; sourceTree = "<group>"; };
+		DE7BE3EA1C2F65FA002931D7 /* Ava Adore - Smashing Pumpkins.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ava Adore - Smashing Pumpkins.mp3"; sourceTree = "<group>"; };
 		DEE3A08E1C2DC53400C6C028 /* Reproductor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reproductor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEE3A0911C2DC53400C6C028 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DEE3A0931C2DC53400C6C028 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,11 +50,6 @@
 		DEE3A0A61C2DC53400C6C028 /* ReproductorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReproductorTests.swift; sourceTree = "<group>"; };
 		DEE3A0A81C2DC53400C6C028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DEE3A0B11C2DC76C00C6C028 /* CancionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancionTableViewCell.swift; sourceTree = "<group>"; };
-		DEE3A0B31C2DCF9000C6C028 /* Ava Adore - Smashing Pumpkins.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ava Adore - Smashing Pumpkins.mp3"; sourceTree = "<group>"; };
-		DEE3A0B51C2DD28400C6C028 /* Dead Funny - Archie Bronson Outfit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Dead Funny - Archie Bronson Outfit.mp3"; sourceTree = "<group>"; };
-		DEE3A0B71C2DD28A00C6C028 /* Derezzed - Daft Punk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Derezzed - Daft Punk.mp3"; sourceTree = "<group>"; };
-		DEE3A0B91C2DD29100C6C028 /* Dreams (Gigamesh Remix) - Fleedwoodmac.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Dreams (Gigamesh Remix) - Fleedwoodmac.mp3"; sourceTree = "<group>"; };
-		DEE3A0BB1C2DD29600C6C028 /* Down On The Street - Iggy Pop and The Stoges.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Down On The Street - Iggy Pop and The Stoges.mp3"; sourceTree = "<group>"; };
 		DEE3A0C71C2DD62100C6C028 /* CancionTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancionTableViewController.swift; sourceTree = "<group>"; };
 		DEE3A0C91C2DD75200C6C028 /* Cancion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cancion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,11 +93,11 @@
 		DEE3A0901C2DC53400C6C028 /* Reproductor */ = {
 			isa = PBXGroup;
 			children = (
-				DEE3A0B31C2DCF9000C6C028 /* Ava Adore - Smashing Pumpkins.mp3 */,
-				DEE3A0B51C2DD28400C6C028 /* Dead Funny - Archie Bronson Outfit.mp3 */,
-				DEE3A0B71C2DD28A00C6C028 /* Derezzed - Daft Punk.mp3 */,
-				DEE3A0B91C2DD29100C6C028 /* Dreams (Gigamesh Remix) - Fleedwoodmac.mp3 */,
-				DEE3A0BB1C2DD29600C6C028 /* Down On The Street - Iggy Pop and The Stoges.mp3 */,
+				DE7BE3EA1C2F65FA002931D7 /* Ava Adore - Smashing Pumpkins.mp3 */,
+				DE7BE3E21C2F60EC002931D7 /* Dead Funny - Archie Bronson Outfit.mp3 */,
+				DE7BE3E41C2F60F6002931D7 /* Derezzed - Daft Punk.mp3 */,
+				DE7BE3E61C2F6103002931D7 /* Dreams (Gigamesh Remix) - Fleedwoodmac.mp3 */,
+				DE7BE3E81C2F6110002931D7 /* Down On The Street - Iggy Pop and The Stoges.mp3 */,
 				DEE3A0911C2DC53400C6C028 /* AppDelegate.swift */,
 				DEE3A0931C2DC53400C6C028 /* ViewController.swift */,
 				DEE3A0951C2DC53400C6C028 /* Main.storyboard */,
@@ -200,14 +200,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEE3A0BC1C2DD29700C6C028 /* Down On The Street - Iggy Pop and The Stoges.mp3 in Resources */,
-				DEE3A0B41C2DCF9000C6C028 /* Ava Adore - Smashing Pumpkins.mp3 in Resources */,
-				DEE3A0B61C2DD28400C6C028 /* Dead Funny - Archie Bronson Outfit.mp3 in Resources */,
+				DE7BE3EB1C2F65FA002931D7 /* Ava Adore - Smashing Pumpkins.mp3 in Resources */,
+				DE7BE3E91C2F6110002931D7 /* Down On The Street - Iggy Pop and The Stoges.mp3 in Resources */,
 				DEE3A09C1C2DC53400C6C028 /* LaunchScreen.storyboard in Resources */,
-				DEE3A0B81C2DD28A00C6C028 /* Derezzed - Daft Punk.mp3 in Resources */,
 				DEE3A0991C2DC53400C6C028 /* Assets.xcassets in Resources */,
 				DEE3A0971C2DC53400C6C028 /* Main.storyboard in Resources */,
-				DEE3A0BA1C2DD29100C6C028 /* Dreams (Gigamesh Remix) - Fleedwoodmac.mp3 in Resources */,
+				DE7BE3E51C2F60F6002931D7 /* Derezzed - Daft Punk.mp3 in Resources */,
+				DE7BE3E71C2F6103002931D7 /* Dreams (Gigamesh Remix) - Fleedwoodmac.mp3 in Resources */,
+				DE7BE3E31C2F60EC002931D7 /* Dead Funny - Archie Bronson Outfit.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

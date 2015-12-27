@@ -112,6 +112,7 @@ class CancionTableViewController: UITableViewController {
         let sigVista = segue.destinationViewController as! ViewController
         sigVista.reproductorReferencia = self.reproductor
         sigVista.cancionSeleccionadaReferencia = self.cancionSeleccionada
+        sigVista.cancionesReferencia = self.canciones
         
     }
     

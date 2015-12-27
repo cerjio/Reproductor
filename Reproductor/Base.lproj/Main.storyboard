@@ -161,7 +161,13 @@
                                             <action selector="stop:" destination="BYZ-38-t0r" id="aVx-Bp-vxZ"/>
                                         </connections>
                                     </barButtonItem>
-                                    <barButtonItem width="40" style="plain" systemItem="fixedSpace" id="n87-1i-xgd"/>
+                                    <barButtonItem width="19" style="plain" systemItem="fixedSpace" id="n87-1i-xgd"/>
+                                    <barButtonItem image="shuffle" style="plain" id="e0f-zT-bsU">
+                                        <connections>
+                                            <action selector="randomSong:" destination="BYZ-38-t0r" id="YKo-2d-Mp7"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem width="17" style="plain" systemItem="fixedSpace" id="CaY-0c-Eyl"/>
                                     <barButtonItem image="speaker" style="plain" id="bub-09-nzN">
                                         <connections>
                                             <action selector="showVolume:" destination="BYZ-38-t0r" id="L1v-qO-4NC"/>
@@ -266,23 +272,23 @@
                             <mask key="constraints">
                                 <exclude reference="Db4-q0-BZQ"/>
                                 <exclude reference="f5c-dM-kjf"/>
-                                <exclude reference="Nzz-m9-gdU"/>
-                                <exclude reference="tG6-Yz-XFm"/>
                                 <exclude reference="Bm2-xB-RlH"/>
                                 <exclude reference="GsP-g0-09I"/>
+                                <exclude reference="1g1-bz-wJO"/>
+                                <exclude reference="SKj-VH-q7V"/>
                                 <exclude reference="O6b-zP-irI"/>
                                 <exclude reference="mqK-TW-dbG"/>
                                 <exclude reference="6D1-Ht-K5y"/>
                                 <exclude reference="ONA-d9-kZk"/>
-                                <exclude reference="1g1-bz-wJO"/>
-                                <exclude reference="SKj-VH-q7V"/>
+                                <exclude reference="Mqb-he-zc0"/>
+                                <exclude reference="gi5-cI-LgN"/>
+                                <exclude reference="rYJ-Qd-jwa"/>
                                 <exclude reference="dne-IU-UrQ"/>
                                 <exclude reference="ej9-SZ-plQ"/>
                                 <exclude reference="gz4-qT-Ktw"/>
                                 <exclude reference="zqp-Lw-3St"/>
-                                <exclude reference="Mqb-he-zc0"/>
-                                <exclude reference="gi5-cI-LgN"/>
-                                <exclude reference="rYJ-Qd-jwa"/>
+                                <exclude reference="Nzz-m9-gdU"/>
+                                <exclude reference="tG6-Yz-XFm"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -299,23 +305,23 @@
                             <mask key="constraints">
                                 <include reference="Db4-q0-BZQ"/>
                                 <include reference="f5c-dM-kjf"/>
-                                <include reference="Nzz-m9-gdU"/>
-                                <include reference="tG6-Yz-XFm"/>
                                 <include reference="Bm2-xB-RlH"/>
                                 <include reference="GsP-g0-09I"/>
+                                <include reference="1g1-bz-wJO"/>
+                                <include reference="SKj-VH-q7V"/>
                                 <include reference="O6b-zP-irI"/>
                                 <include reference="mqK-TW-dbG"/>
                                 <include reference="6D1-Ht-K5y"/>
                                 <include reference="ONA-d9-kZk"/>
-                                <include reference="1g1-bz-wJO"/>
-                                <include reference="SKj-VH-q7V"/>
+                                <include reference="Mqb-he-zc0"/>
+                                <include reference="gi5-cI-LgN"/>
+                                <include reference="rYJ-Qd-jwa"/>
                                 <include reference="dne-IU-UrQ"/>
                                 <include reference="ej9-SZ-plQ"/>
                                 <include reference="gz4-qT-Ktw"/>
                                 <include reference="zqp-Lw-3St"/>
-                                <include reference="Mqb-he-zc0"/>
-                                <include reference="gi5-cI-LgN"/>
-                                <include reference="rYJ-Qd-jwa"/>
+                                <include reference="Nzz-m9-gdU"/>
+                                <include reference="tG6-Yz-XFm"/>
                             </mask>
                         </variation>
                         <connections>
@@ -357,6 +363,7 @@
     </scenes>
     <resources>
         <image name="play" width="32" height="32"/>
+        <image name="shuffle" width="32" height="32"/>
         <image name="speaker" width="32" height="32"/>
         <image name="stop" width="32" height="32"/>
     </resources>

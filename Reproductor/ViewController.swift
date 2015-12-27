@@ -21,6 +21,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     
     var reproductorReferencia : AVAudioPlayer!
     var cancionSeleccionadaReferencia : Cancion!
+    var cancionesReferencia : [Cancion] = []
     let imagePlay : UIImage = UIImage(named: "play")!
     let imagePause : UIImage = UIImage(named: "pause")!
     
@@ -98,5 +99,38 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         barVolume.resignFirstResponder()
     }
 
+    @IBAction func randomSong(sender: AnyObject) {
+        
+        
+        let randomIndex = Int(arc4random_uniform(UInt32(cancionesReferencia.count)))
+        cancionSeleccionadaReferencia = cancionesReferencia[randomIndex]
+        
+        
+        portada.image = cancionSeleccionadaReferencia.portada
+        nombreCancion.text = cancionSeleccionadaReferencia.nombreCancion.componentsSeparatedByString("-").first!
+        artista.text = cancionSeleccionadaReferencia.nombreCancion.componentsSeparatedByString("-").last!
+
+        
+        let sonidoURL = NSBundle.mainBundle().URLForResource(cancionSeleccionadaReferencia?.nombreCancion, withExtension: "mp3")
+        
+        reproductorReferencia.stop()
+        
+        do {
+            try reproductorReferencia = AVAudioPlayer(contentsOfURL: sonidoURL!)
+            reproductorReferencia.delegate = self
+            reproductorReferencia.play()
+        } catch {
+            print("Error al cargar el archivo de sonido")
+        }
+        
+        
+        if reproductorReferencia.playing {
+            playPause.image = imagePause
+        }
+        
+
+        
+        
+    }
 }
 
